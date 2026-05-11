@@ -17,24 +17,24 @@ Firewall üzerinden (OS düzeyinde) banlayan bir güvenlik katmanıdır.
 
 Not: Eğer dosya yoksa, aynı dizinde boş bir access.log dosyası oluşturun
 
-4. ADIM: Honeypot Kurulumu: Sitenin ana dizinine (public_html) şu boş dosyaları oluşturun:
+3. ADIM: Honeypot Kurulumu: Sitenin ana dizinine (public_html) şu boş dosyaları oluşturun:
    - setup.php
    - admin_backup.zip
    - config.old
    - .env_production
 
-5. ADIM: TELEGRAM ENTEGRASYONU (OPSİYONEL)
+4. ADIM: TELEGRAM ENTEGRASYONU (OPSİYONEL)
 analiz.py içindeki TELEGRAM_TOKEN ve CHAT_ID alanlarını doldurarak saldırı raporlarını anlık olarak cebinize alabilirsiniz.
 
-6. ADIM: SİSTEMİ BAŞLATMA
+5. ADIM: SİSTEMİ BAŞLATMA
 - Windows: CMD'yi "Yönetici Olarak" açın ve 'python analiz.py' (veya direkt Janus_Warrior.exe) çalıştırın.
 - Linux: Terminalde 'sudo python3 analiz.py' komutunu çalıştırın.
 
-7. ADIM: YÖNETİM VE KOMUTLAR
+6. ADIM: YÖNETİM VE KOMUTLAR
 - Ban Kaldırma: Konsola unban IP_ADRESI yazarak yanlışlıkla engellenen kişilerin banını kaldırabilirsiniz.
 - Beyaz Liste: list yazarak güvenli IP'leri görebilirsiniz.
 
-8. ADIM: RAPORLAMA
+7. ADIM: RAPORLAMA
 Tüm engelleme kayıtları ve saldırı detayları blocked_ips.txt dosyasına otomatik olarak kaydedilir.
 
 -----------------------------------------------------
