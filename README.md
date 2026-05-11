@@ -4,6 +4,10 @@
 Bu sistem, sunucu loglarını anlık analiz ederek saldırganları 
 Firewall üzerinden (OS düzeyinde) banlayan bir güvenlik katmanıdır.
 
+
+<img width="800" height="437" alt="janus_demo" src="https://github.com/user-attachments/assets/36b18f52-40e3-4f12-b58f-f77d6d460a55" />
+
+
 1. ADIM: SUNUCU AYARLARI
 - Sunucuda Python 3.10 veya üzeri yüklü olmalıdır.
 - Gerekli kütüphaneler: 'pip install requests plyer' komutuyla yükleyebilirsiniz.
@@ -36,6 +40,8 @@ analiz.py içindeki TELEGRAM_TOKEN ve CHAT_ID alanlarını doldurarak saldırı 
 
 7. ADIM: RAPORLAMA
 Tüm engelleme kayıtları ve saldırı detayları blocked_ips.txt dosyasına otomatik olarak kaydedilir.
+
+
 
 -----------------------------------------------------
 Güvenli günler dilerim. Janus Warrior iş başında!
