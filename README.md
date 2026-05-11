@@ -41,7 +41,8 @@ analiz.py içindeki TELEGRAM_TOKEN ve CHAT_ID alanlarını doldurarak saldırı 
 7. ADIM: RAPORLAMA
 Tüm engelleme kayıtları ve saldırı detayları blocked_ips.txt dosyasına otomatik olarak kaydedilir.
 
-
+8. ADIM : SİSTEMİ TEST ETME
+Sistemin çalıştığını doğrulamak için "python sim.py" yazarak sim.py dosyasını çalıştırarak yapay bir saldırı simülasyonu başlatabilir ve Janus'un anlık tepkisini ölçebilirsiniz.
 
 -----------------------------------------------------
 Güvenli günler dilerim. Janus Warrior iş başında!
