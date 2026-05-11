@@ -6,7 +6,7 @@ Firewall üzerinden (OS düzeyinde) banlayan bir güvenlik katmanıdır.
 
 1. ADIM: SUNUCU AYARLARI
 - Sunucuda Python 3.10 veya üzeri yüklü olmalıdır.
-- Gerekli kütüphaneler: 'pip install requests plyer' ve 'pip install requests'
+- Gerekli kütüphaneler: 'pip install requests plyer' komutuyla yükleyebilirsiniz.
 
 2. ADIM: LOG ENTEGRASYONU (KRİTİK)
 - analiz.py dosyasını açın ve 'LOG_FILE' değişkenine sitemizin 
